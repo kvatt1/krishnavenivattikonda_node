@@ -1,0 +1,62 @@
+[
+  {
+    "_id": 1,
+    "name": "Tylenol",
+    "exp_date": "2026-04-19T00:00:00.000Z",
+    "barcode": "6622d4b675bcaadf3441b976",
+    "price": 7.33,
+    "category": "Children's Cold + Flu",
+    "weight": "120ml",
+    "img": "https://m.media-amazon.com/images/I/71tARHICzlL._AC_SL1500_.jpg"
+  },
+  {
+    "_id": 2,
+    "name": "Bengay",
+    "exp_date": "2027-03-19T00:00:00.000Z",
+    "barcode": "6622d8a775bcaadf3441b977",
+    "price": 7.37,
+    "category": "Topical Pain Relief Cream",
+    "weight": "113 g",
+    "img": "https://m.media-amazon.com/images/I/71+jLiEoI6L._AC_SX679_.jpg"
+  },
+  {
+    "_id": 3,
+    "name": "Ibuprofen",
+    "exp_date": "2026-07-25T00:00:00.000Z",
+    "barcode": "6622d8a775bcaadf3441b977",
+    "price": 7.25,
+    "category": "Children's Ibuprofen Oral Suspension",
+    "weight": "240ml",
+    "img": "https://m.media-amazon.com/images/I/61bTWmwFbeL._AC_SL1333_.jpg"
+  },
+  {
+    "_id": 4,
+    "name": "Centrum",
+    "exp_date": "2026-09-09T00:00:00.000Z",
+    "barcode": "6622d4b675bcaadf3441b976",
+    "price": 8.99,
+    "category": "Multivitamin",
+    "weight": "236ml",
+    "img": "https://m.media-amazon.com/images/I/718cneY1gQL._AC_SX679_.jpg"
+  },
+  {
+    "_id": 5,
+    "name": "Coppertone",
+    "exp_date": "2025-04-29T00:00:00.000Z",
+    "barcode": "6622d4b675bcaadf3441b976",
+    "price": 8.49,
+    "category": "Kids Sunscreen Lotion",
+    "weight": "237ml",
+    "img": "https://m.media-amazon.com/images/I/71kXN0aL4TL._SX466_.jpg"
+  },
+  {
+    "_id": 6,
+    "name": "CeraVe",
+    "exp_date": "2024-12-19T00:00:00.000Z",
+    "barcode": "6622d4b675bcaadf3441b976",
+    "price": 17.78,
+    "category": "Moisturizing Cream",
+    "weight": "536 g",
+    "img": "https://m.media-amazon.com/images/I/61pIL2maVKL._SX466_.jpg"
+  }
+]

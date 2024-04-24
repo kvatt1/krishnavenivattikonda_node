@@ -1,0 +1,118 @@
+ :root{
+    --theme-color:#acc7f6 ;
+    --font-color: #4c42bf;
+    --background-color:rgb(168, 246, 246);
+      font-family: 'Times New Roman', Times, serif;
+    }
+    body{        
+        box-sizing: border-box;
+        margin-right: 1%; 
+        margin-left: 1%;
+        color: var(--font-color);
+        text-align: center;
+    }
+    nav{
+        background-color:var(--theme-color);
+        color: #fff;
+        text-align: right;
+        padding: 1%;
+        font-weight: bold;
+        margin-bottom: 1%;
+        grid-area: nav;
+        overflow: hidden;
+    }
+    main{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        padding: 1%;
+        grid-gap: 1%;       
+        color: var(--font-color);
+        justify-content: space-between;
+        background-color:var(--background-color);        
+    }
+    .profile-img{
+        width:200px;
+        height:200px;
+    }
+   .skill-img{
+    display: grid; 
+    width: 60%;
+    height: 60%;
+    }
+   .skills-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    justify-content:space-evenly;
+    margin-left: 5%;
+    align-items: center;
+    }
+    section{
+        background-color:var(--background-color);
+        border-radius: 1%;
+        padding: 1%;
+    }
+    .projects-experience{
+        display: grid;  
+        align-content:center; 
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-gap: 1%;                  
+    }
+    :is(#about,#skills,#blog){
+    background-color:var(--theme-color);
+    margin-top: 1%;
+    margin-bottom: 1%;
+    }
+    li{
+        list-style-type: none;
+    }    
+    a:link{
+    color: var(--font-color);
+    text-decoration: none;
+    padding: 1%;
+    }
+    a:hover{
+        text-decoration: underline;
+    }
+    a:active{
+        color: #d975f0;;
+        text-decoration: none;
+    } 
+    #years::first-letter{
+    font-size: 80px;
+    }
+    @media only screen and (max-width: 500px){    
+        .projects-experience{
+            grid-template-columns: 1fr;
+        }
+        .container{
+            grid-template-columns: 1fr;
+            grid-template-rows: 0.4fr 2.2fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr ;
+            justify-content: space-evenly;    
+            grid-template-areas:
+            "nav"
+            "main"        
+            "about"
+            "education"
+            "skills"
+            "projects"
+            "excperience"
+            "blog"
+            "footer";
+            row-gap: 0.5rem ;
+        }
+        main {
+            display: grid;
+            justify-content: space-evenly;
+            height: 80vh;
+        }
+        nav{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .profile-img{
+            width:150px;
+        }
+
+    }
