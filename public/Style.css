@@ -80,6 +80,12 @@
     #years::first-letter{
     font-size: 80px;
     }
+    .text-height{
+        line-height: 0px;
+    }
+    #text-justify{
+       text-align: justify;
+    }
     @media only screen and (max-width: 500px){    
         .projects-experience{
             grid-template-columns: 1fr;
